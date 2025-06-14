@@ -5,11 +5,11 @@ class Rectangle {
 		this._height = height;
 	}
 
-	get width(width){
+	get width(){
 		return this._width;
 	}
 
-	get height(height){
+	get height(){
 		return this._height;
 	}
 
@@ -18,7 +18,7 @@ class Rectangle {
 	}
 }
 
-class Square extends Rectangle{
+class Square extends Rectangle {
 	constructor(side){
 		super(side, side);
 	}
